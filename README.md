@@ -14,11 +14,17 @@
 ## 🗺️ Visual Outputs
 
 ### 1. Interactive Web Radar (`flight_map.html`)
-The primary output is a live, clickable web application featuring an on-screen tactical HUD header, classification legend, and detailed telemetry popups for every aircraft:
+The primary output is a live, clickable web application featuring an on-screen tactical HUD header, classification legend, and detailed telemetry popups for every aircraft. Users can toggle between standard map and tactical dark canvas modes:
 
-![SkyWatch Interactive Web Map](data/results/web_map.png)
+#### View A: Standard Street Map View
+![SkyWatch Web Radar - Street Map View](data/results/web_map.png)
 
-*Real airborne aircraft over the US. Normal flights in slate gray; detected anomalies highlighted in vivid neon vectors with live on-screen legend.*
+*High-contrast anomaly trajectories plotted over geographical reference points with live HUD header and on-screen classification legend.*
+
+#### View B: Tactical Dark Canvas View
+![SkyWatch Web Radar - Dark Canvas View](data/results/web_map_dark.png)
+
+*Night-vision tactical radar view on Dark Gray canvas, isolating neon vectors, holding stacks, and detour comparison lines.*
 
 ### 2. Tactical Telemetry Radar Briefing (`anomaly_map.png`)
 A high-resolution 300 DPI analytical map with target zoom insets and vertical profile graphs:
@@ -136,7 +142,8 @@ skywatch/
 └── data/
     ├── us_states.json    # US state geographic boundary polygons
     └── results/
-        ├── web_map.png           # Actual screenshot of the interactive web application
+        ├── web_map.png           # Actual screenshot: Street map view
+        ├── web_map_dark.png      # Actual screenshot: Tactical dark canvas view
         ├── anomaly_map.png       # 300 DPI tactical HUD briefing
         ├── flight_map.html       # Self-contained interactive web map
         ├── anomalies_summary.json# Clean JSON export of all flagged targets
