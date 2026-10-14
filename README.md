@@ -39,7 +39,7 @@ SkyWatch processes each flight trajectory through seven independent mathematical
 
 ### 1. Clone & Install Dependencies
 ```bash
-git clone https://github.com/aashvathgupta/skywatch.git
+git clone https://github.com/Aashvath/skywatch.git
 cd skywatch
 pip install -r requirements.txt
 ```
