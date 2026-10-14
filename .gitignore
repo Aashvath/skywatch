@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+*.egg-info/
+venv/
+.env
+.venv/
+
+# Ignore large raw harvested tracks cache, but keep results and geo data
+data/tracks.json
+data/tracks/
