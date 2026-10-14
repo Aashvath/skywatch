@@ -4,8 +4,17 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Telemetry: OpenSky Network](https://img.shields.io/badge/Data-OpenSky%20ADS--B-orange.svg)](https://opensky-network.org/)
 [![Built with Claude](https://img.shields.io/badge/Built%20with-Claude-6366f1.svg)](https://claude.ai)
+[![Book: Mastering Claude ($3.99)](https://img.shields.io/badge/Book-Mastering%20Claude%20($3.99)-FF9900.svg?logo=amazon)](https://www.amazon.com/dp/B0HJX6FX1K)
 
 > **"I fed live ADS-B flight trajectories into Claude to map unexplained flight patterns. Here are the bizarre anomalies we found."**
+
+> [!NOTE]
+> ### 📘 Built With The *Mastering Claude* Playbook
+> This entire autonomous project was architected, coded, and debugged using the prompt engineering workflows documented in:  
+> **[Mastering Claude: The Practical Playbook for High-Output Work, Coding, and Automation](https://www.amazon.com/dp/B0HJX6FX1K)** ($3.99 on Kindle / $9.99 Paperback)  
+> *Under 100 pages • Production agentic workflows, prompt chains, XML constraint templates, and CLI mastery.*
+
+---
 
 **SkyWatch** is an open-source flight telemetry analysis engine. It connects directly to OpenSky Network satellites, ingests thousands of live ADS-B transponder broadcasts across US airspace, and applies 7 aeronautical kinematic heuristics to automatically detect holding patterns, rapid emergency descents, aerial survey grids, and high-deviation diversions, backed by full mathematical proof.
 
@@ -159,7 +168,7 @@ This entire pipeline was architected, written, and debugged using **Claude** by 
 The algorithmic prompts, XML constraint frameworks, and prompt-chaining techniques used to build SkyWatch's mathematical heuristics are documented in:
 
 📘 **[Mastering Claude: The Practical Playbook for High-Output Work, Coding, and Automation](https://www.amazon.com/dp/B0HJX6FX1K)**  
-*Under 100 pages • No academic fluff • Production agentic workflows, CLI mastery, and 100+ MCP integration maps.*
+*Under 100 pages • Production agentic workflows, CLI mastery, and 100+ MCP integration maps.*
 
 ---
 
