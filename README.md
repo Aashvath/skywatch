@@ -10,7 +10,7 @@
 
 > [!NOTE]
 > ### 📘 Built With The *Mastering Claude* Playbook
-> This entire autonomous project was architected, coded, and debugged using the prompt engineering workflows documented in:  
+> This entire autonomous project has been architected, coded, and debugged using the prompt engineering workflows documented in:  
 > **[Mastering Claude: The Practical Playbook for High-Output Work, Coding, and Automation](https://www.amazon.com/dp/B0HJX6FX1K)** ($3.99 on Kindle / $9.99 Paperback)  
 > *Under 100 pages • Production agentic workflows, prompt chains, XML constraint templates, and CLI mastery.*
 
